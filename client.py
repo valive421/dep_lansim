@@ -35,7 +35,6 @@ import ipaddress
 import netifaces
 from datetime import datetime, timedelta
 import traceback
-import requests
 
 # Try to load WinTun DLL
 try:
@@ -198,7 +197,7 @@ class VPNClient:
         self.wintun = WinTunManager()
         self.running = False
         self.last_keepalive = time.time()
-        self.packet_callback = packet_callback
+        self.packet_callback = packet_callback  # Callback for packet logging
         
     def start(self):
         try:
@@ -208,6 +207,7 @@ class VPNClient:
             self.udp_socket.bind(('0.0.0.0', 0))
             debug(f"VPNClient.start: UDP socket bound to {self.udp_socket.getsockname()}")
             
+            # Use unique adapter name per client to avoid conflicts when multiple clients run on same host
             adapter_name = f"LANVPN-{self.peer_id}"
             debug(f"Attempting to create/open adapter with name: {adapter_name}")
             if not self.wintun.create_adapter(name=adapter_name):
@@ -215,6 +215,7 @@ class VPNClient:
             else:
                 if not self.wintun.start_session():
                     debug("Could not start WinTun session", level='WARNING')
+            
             
             self.running = True
             debug(f"VPNClient.start: running={self.running}, peer_id={self.peer_id}")
@@ -364,17 +365,32 @@ class VPNClient:
             for pid, info in raw_members.items():
                 public_ip = info.get('public_ip')
                 public_port = info.get('public_port')
-
                 if public_ip and public_port:
-                    members[pid] = {
-                        'username': info.get('username'),
-                        'addr': (public_ip, public_port)   # ✅ use real peer IP
-                    }
+                    peer_addr = (public_ip, public_port)
                 else:
-                    members[pid] = {
-                        'username': info.get('username'),
-                        'addr': addr
-                    }
+                    peer_addr = addr
+                members[pid] = {
+                    'username': info.get('username'),
+                    'addr': peer_addr
+                }
+            self.room_members = members
+            self._connect_to_peers()
+
+        elif action == 'peer_list':
+            debug("Received peer_list", extra=message)
+            raw_members = message.get('members', {})
+            members = {}
+            for pid, info in raw_members.items():
+                public_ip = info.get('public_ip')
+                public_port = info.get('public_port')
+                if public_ip and public_port:
+                    peer_addr = (public_ip, public_port)
+                else:
+                    peer_addr = addr
+                members[pid] = {
+                    'username': info.get('username'),
+                    'addr': peer_addr
+                }
             self.room_members = members
             self._connect_to_peers()
 
@@ -383,19 +399,17 @@ class VPNClient:
             username = message.get('username')
             public_ip = message.get('public_ip')
             public_port = message.get('public_port')
-
             if public_ip and public_port:
-                peer_addr = (public_ip, public_port)   # ✅ use real peer IP
+                peer_addr = (public_ip, public_port)
             else:
                 peer_addr = addr
-
             self.room_members[peer_id] = {
                 'username': username,
                 'addr': peer_addr
             }
             debug(f"peer_joined: {peer_id} at {peer_addr}")
             self._initiate_punch(peer_id, peer_addr)
-            
+
         elif action == 'peer_left':
             peer_id = message.get('peer_id')
             debug(f"peer_left: {peer_id}")
@@ -433,7 +447,6 @@ class VPNClient:
     def _initiate_punch(self, peer_id, peer_addr):
         if peer_id in self.connected_peers:
             return
-        
         debug(f"_initiate_punch: Connecting to {peer_id} at {peer_addr}")
 
         message = {
@@ -696,29 +709,6 @@ def is_admin():
         except:
             return False
 
-def check_server_connectivity(server_host, flask_port, udp_port, timeout=2):
-    # Check Flask (TCP)
-    try:
-        url = f"http://{server_host}:{flask_port}/"
-        r = requests.get(url, timeout=timeout)
-        if r.status_code != 200:
-            return False, f"Flask server returned status {r.status_code}"
-    except Exception as e:
-        return False, f"Flask server unreachable: {e}"
-
-    # Check UDP
-    try:
-        udp_sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-        udp_sock.settimeout(timeout)
-        test_msg = b"ping"
-        udp_sock.sendto(test_msg, (server_host, udp_port))
-        # Expect no response, just check if sendto doesn't error
-        udp_sock.close()
-    except Exception as e:
-        return False, f"UDP server unreachable: {e}"
-
-    return True, "Both Flask and UDP reachable"
-
 def main():
     # --- Admin elevation for Windows ---
     if os.name == 'nt' and not is_admin():
@@ -733,14 +723,8 @@ def main():
         messagebox.showerror("WinTun DLL Error", "WinTun DLL not found or failed to load. Please ensure wintun.dll is in the same directory and matches your Python architecture.")
         sys.exit(1)
 
-    server_host = "myroomserver-demo.westus2.azurecontainer.io"  # Use your Wi-Fi IPv4 address
+    server_host = "192.168.1.112"  # Replace with your server IP
     server_port = 5000
-    flask_port = 5001
-
-    ok, msg = check_server_connectivity(server_host, flask_port, server_port)
-    if not ok:
-        messagebox.showerror("Server Connectivity Error", msg)
-        sys.exit(1)
 
     root = tk.Tk()
     app = VPNGuiClient(root, server_host, server_port)

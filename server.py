@@ -196,6 +196,8 @@ class RoomServer:
             'public_port': addr[1]
         }
 
+        print(f"Peer joined: {peer_id} ({username}) public_ip={addr[0]} public_port={addr[1]}")
+
         members = {}
         for pid, info in self.rooms[room_id]['members'].items():
             if pid != peer_id:

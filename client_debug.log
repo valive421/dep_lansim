@@ -1,31 +1,2423 @@
-2025-09-05T21:24:13.767376 [INFO] VPNClient.start: creating UDP socket
-2025-09-05T21:24:13.768275 [INFO] VPNClient.start: UDP socket bound to ('0.0.0.0', 57167)
-2025-09-05T21:24:13.768714 [INFO] create_adapter: attempting to create/open adapter 'LANVPN-939ae991'
-2025-09-05T21:24:13.967410 [INFO] create_adapter: created adapter=True
-2025-09-05T21:24:13.968010 [INFO] start_session: starting session
-2025-09-05T21:24:14.126270 [INFO] Assigned 10.8.0.202/255.255.255.0 to LANVPN-939ae991
-2025-09-05T21:24:14.126840 [INFO] start_session: assigned tunnel IP 10.8.0.202
-2025-09-05T21:24:14.128162 [INFO] VPNClient._network_loop: started
-2025-09-05T21:24:14.128414 [INFO] VPNClient._keepalive_loop: started
-2025-09-05T21:24:21.137728 [INFO] VPNClient.start: creating UDP socket
-2025-09-05T21:24:21.138606 [INFO] VPNClient.start: UDP socket bound to ('0.0.0.0', 55913)
-2025-09-05T21:24:21.138969 [INFO] create_adapter: attempting to create/open adapter 'LANVPN-9c57560e'
-2025-09-05T21:24:21.323804 [INFO] create_adapter: created adapter=True
-2025-09-05T21:24:21.324400 [INFO] start_session: starting session
-2025-09-05T21:24:21.449000 [INFO] Assigned 10.8.0.92/255.255.255.0 to LANVPN-9c57560e
-2025-09-05T21:24:21.449437 [INFO] start_session: assigned tunnel IP 10.8.0.92
-2025-09-05T21:24:21.450441 [INFO] VPNClient._network_loop: started
-2025-09-05T21:24:21.450641 [INFO] VPNClient._keepalive_loop: started
-2025-09-05T21:24:25.136631 [INFO] Room created successfully
-2025-09-05T21:24:29.425438 [INFO] peer_joined: {'action': 'peer_joined', 'room_id': 'va', 'peer_id': '9c57560e', 'username': 'Player_9c57560e', 'public_ip': '10.92.0.9', 'public_port': 36616}
-2025-09-05T21:24:29.425872 [INFO] Received control msg: {'action': 'room_joined', 'room_id': 'va', 'members': {'939ae991': {'username': 'Player_939ae991', 'public_ip': '10.92.0.9', 'public_port': 57308}}, 'status': 'success', 'public_ip': '10.92.0.9', 'public_port': 36616}
-2025-09-05T21:27:33.434977 [INFO] VPNClient.start: creating UDP socket
-2025-09-05T21:27:33.435588 [INFO] VPNClient.start: UDP socket bound to ('0.0.0.0', 49666)
-2025-09-05T21:27:33.435863 [INFO] create_adapter: attempting to create/open adapter 'LANVPN-596ae5ab'
-2025-09-05T21:27:33.610432 [INFO] create_adapter: created adapter=True
-2025-09-05T21:27:33.610925 [INFO] start_session: starting session
-2025-09-05T21:27:33.731887 [INFO] Assigned 10.8.0.169/255.255.255.0 to LANVPN-596ae5ab
-2025-09-05T21:27:33.732310 [INFO] start_session: assigned tunnel IP 10.8.0.169
-2025-09-05T21:27:33.733264 [INFO] VPNClient._network_loop: started
-2025-09-05T21:27:33.733458 [INFO] VPNClient._keepalive_loop: started
-2025-09-05T21:27:37.550620 [INFO] Room created successfully
+2025-09-05T21:55:16.740145 [INFO] VPNClient.start: creating UDP socket
+2025-09-05T21:55:16.740979 [INFO] VPNClient.start: UDP socket bound to ('0.0.0.0', 50451)
+2025-09-05T21:55:16.741404 [INFO] create_adapter: attempting to create/open adapter 'LANVPN-af97965a'
+2025-09-05T21:55:16.909988 [INFO] create_adapter: created adapter=True
+2025-09-05T21:55:16.910467 [INFO] start_session: starting session
+2025-09-05T21:55:17.041527 [INFO] Assigned 10.8.0.12/255.255.255.0 to LANVPN-af97965a
+2025-09-05T21:55:17.042135 [INFO] start_session: assigned tunnel IP 10.8.0.12
+2025-09-05T21:55:17.044187 [INFO] VPNClient._network_loop: started
+2025-09-05T21:55:17.045326 [INFO] VPNClient._keepalive_loop: started
+2025-09-05T21:55:17.045773 [INFO] VPNClient._lan_forwarding_loop: started
+2025-09-05T21:55:21.533445 [INFO] VPNClient.start: creating UDP socket
+2025-09-05T21:55:21.534045 [INFO] VPNClient.start: UDP socket bound to ('0.0.0.0', 55879)
+2025-09-05T21:55:21.534301 [INFO] create_adapter: attempting to create/open adapter 'LANVPN-fac2393c'
+2025-09-05T21:55:23.378987 [INFO] create_adapter: created adapter=True
+2025-09-05T21:55:23.379557 [INFO] start_session: starting session
+2025-09-05T21:55:23.483637 [INFO] Assigned 10.8.0.135/255.255.255.0 to LANVPN-fac2393c
+2025-09-05T21:55:23.484233 [INFO] start_session: assigned tunnel IP 10.8.0.135
+2025-09-05T21:55:23.485441 [INFO] VPNClient._network_loop: started
+2025-09-05T21:55:23.485655 [INFO] VPNClient._keepalive_loop: started
+2025-09-05T21:55:23.485839 [INFO] VPNClient._lan_forwarding_loop: started
+2025-09-05T21:55:26.978792 [INFO] Received control msg: {'action': 'room_created', 'room_id': 'va', 'status': 'success', 'public_ip': '10.92.0.9', 'public_port': 7422}
+2025-09-05T21:55:31.498775 [INFO] Received control msg: {'action': 'room_joined', 'room_id': 'va', 'members': {'fac2393c': {'username': 'Player_fac2393c', 'public_ip': '10.92.0.9', 'public_port': 7422}}, 'status': 'success', 'public_ip': '10.92.0.11', 'public_port': 30118}
+2025-09-05T22:07:58.135064 [INFO] VPNClient.start: creating UDP socket
+2025-09-05T22:07:58.135730 [INFO] VPNClient.start: UDP socket bound to ('0.0.0.0', 63448)
+2025-09-05T22:07:58.136042 [INFO] create_adapter: attempting to create/open adapter 'LANVPN-1eb33579'
+2025-09-05T22:07:58.300969 [INFO] create_adapter: created adapter=True
+2025-09-05T22:07:58.301483 [INFO] start_session: starting session
+2025-09-05T22:07:58.435647 [INFO] Assigned 10.8.0.48/255.255.255.0 to LANVPN-1eb33579
+2025-09-05T22:07:58.436395 [INFO] start_session: assigned tunnel IP 10.8.0.48
+2025-09-05T22:07:58.437615 [INFO] VPNClient._network_loop: started
+2025-09-05T22:07:58.437823 [INFO] VPNClient._keepalive_loop: started
+2025-09-05T22:07:58.438018 [INFO] VPNClient._lan_forwarding_loop: started
+2025-09-05T22:08:07.639495 [INFO] VPNClient.start: creating UDP socket
+2025-09-05T22:08:07.640093 [INFO] VPNClient.start: UDP socket bound to ('0.0.0.0', 51732)
+2025-09-05T22:08:07.640620 [INFO] create_adapter: attempting to create/open adapter 'LANVPN-2284ac7c'
+2025-09-05T22:08:07.811784 [INFO] create_adapter: created adapter=True
+2025-09-05T22:08:07.812377 [INFO] start_session: starting session
+2025-09-05T22:08:07.915772 [INFO] Assigned 10.8.0.107/255.255.255.0 to LANVPN-2284ac7c
+2025-09-05T22:08:07.916378 [INFO] start_session: assigned tunnel IP 10.8.0.107
+2025-09-05T22:08:07.917429 [INFO] VPNClient._network_loop: started
+2025-09-05T22:08:07.917630 [INFO] VPNClient._keepalive_loop: started
+2025-09-05T22:08:07.917841 [INFO] VPNClient._lan_forwarding_loop: started
+2025-09-05T22:08:11.478726 [INFO] Received control msg: {'action': 'room_joined', 'room_id': 'va', 'members': {'1eb33579': {'username': 'Player_1eb33579', 'public_ip': '10.92.0.10', 'public_port': 10245}}, 'status': 'success', 'public_ip': '10.92.0.11', 'public_port': 31565}
+2025-09-05T22:08:11.478738 [INFO] Received control msg: {'action': 'peer_joined', 'room_id': 'va', 'peer_id': '2284ac7c', 'username': 'Player_2284ac7c', 'public_ip': '10.92.0.11', 'public_port': 31565}
+2025-09-05T23:28:35.643736 [INFO] VPNClient.start: creating UDP socket
+2025-09-05T23:28:35.645181 [INFO] VPNClient.start: UDP socket bound to ('0.0.0.0', 59315)
+2025-09-05T23:28:35.645973 [INFO] create_adapter: attempting to create/open adapter 'LANVPN-afc470da'
+2025-09-05T23:28:35.965163 [INFO] create_adapter: created adapter=True
+2025-09-05T23:28:35.965960 [INFO] start_session: starting session
+2025-09-05T23:28:36.133679 [INFO] Assigned 10.8.0.249/255.255.255.0 to LANVPN-afc470da
+2025-09-05T23:28:36.134440 [INFO] start_session: assigned tunnel IP 10.8.0.249
+2025-09-05T23:28:36.135952 [INFO] VPNClient._network_loop: started
+2025-09-05T23:28:36.136183 [INFO] VPNClient._keepalive_loop: started
+2025-09-05T23:28:36.136427 [INFO] VPNClient._lan_forwarding_loop: started
+2025-09-05T23:28:39.773827 [INFO] Received control msg: {'action': 'room_created', 'room_id': 'va', 'status': 'success', 'public_ip': '127.0.0.1', 'public_port': 59315}
+2025-09-05T23:28:44.738212 [INFO] VPNClient.start: creating UDP socket
+2025-09-05T23:28:44.739039 [INFO] VPNClient.start: UDP socket bound to ('0.0.0.0', 54946)
+2025-09-05T23:28:44.739449 [INFO] create_adapter: attempting to create/open adapter 'LANVPN-e0abaac6'
+2025-09-05T23:28:45.068309 [INFO] create_adapter: created adapter=True
+2025-09-05T23:28:45.069703 [INFO] start_session: starting session
+2025-09-05T23:28:45.248253 [INFO] Assigned 10.8.0.171/255.255.255.0 to LANVPN-e0abaac6
+2025-09-05T23:28:45.249390 [INFO] start_session: assigned tunnel IP 10.8.0.171
+2025-09-05T23:28:45.250876 [INFO] VPNClient._network_loop: started
+2025-09-05T23:28:45.251146 [INFO] VPNClient._keepalive_loop: started
+2025-09-05T23:28:45.251402 [INFO] VPNClient._lan_forwarding_loop: started
+2025-09-05T23:28:49.250948 [INFO] Received control msg: {'action': 'room_joined', 'room_id': 'va', 'members': {'afc470da': {'username': 'Player_afc470da', 'public_ip': '127.0.0.1', 'public_port': 59315}}, 'status': 'success', 'public_ip': '127.0.0.1', 'public_port': 54946}
+2025-09-05T23:29:56.811583 [INFO] VPNClient.start: creating UDP socket
+2025-09-05T23:29:56.813562 [INFO] VPNClient.start: UDP socket bound to ('0.0.0.0', 51805)
+2025-09-05T23:29:56.814048 [INFO] Attempting to create/open adapter with name: LANVPN-e72b5c1e
+2025-09-05T23:29:56.814434 [INFO] create_adapter: attempting to create/open adapter 'LANVPN-e72b5c1e'
+2025-09-05T23:29:57.119715 [INFO] create_adapter: created adapter=True
+2025-09-05T23:29:57.120551 [INFO] start_session: starting session
+2025-09-05T23:29:57.121153 [INFO] WintunStartSession func: <_FuncPtr object at 0x000001C198F165B0>
+2025-09-05T23:29:57.122921 [INFO] start_session: session started=True
+2025-09-05T23:29:57.124390 [INFO] VPNClient.start: running=True, peer_id=e72b5c1e
+2025-09-05T23:29:57.135719 [INFO] VPNClient.start: started thread Thread-1 (_network_loop)
+2025-09-05T23:29:57.137806 [INFO] VPNClient.start: started thread Thread-2 (_keepalive_loop)
+2025-09-05T23:29:57.139238 [INFO] VPN client started for peer e72b5c1e
+2025-09-05T23:30:02.778312 [INFO] create_room: room_id=va, username=Player_e72b5c1e
+2025-09-05T23:30:02.780020 [INFO] _network_loop: received 112 bytes from ('127.0.0.1', 5000)
+2025-09-05T23:30:02.780570 [INFO] Room created successfully
+2025-09-05T23:30:07.352037 [INFO] VPNClient.start: creating UDP socket
+2025-09-05T23:30:07.354478 [INFO] VPNClient.start: UDP socket bound to ('0.0.0.0', 50933)
+2025-09-05T23:30:07.355001 [INFO] Attempting to create/open adapter with name: LANVPN-bbeb29e3
+2025-09-05T23:30:07.355500 [INFO] create_adapter: attempting to create/open adapter 'LANVPN-bbeb29e3'
+2025-09-05T23:30:09.948488 [INFO] create_adapter: created adapter=True
+2025-09-05T23:30:09.949223 [INFO] start_session: starting session
+2025-09-05T23:30:09.949748 [INFO] WintunStartSession func: <_FuncPtr object at 0x00000213152F65B0>
+2025-09-05T23:30:09.956333 [INFO] start_session: session started=True
+2025-09-05T23:30:09.971539 [INFO] VPNClient.start: running=True, peer_id=bbeb29e3
+2025-09-05T23:30:09.978499 [INFO] VPNClient.start: started thread Thread-1 (_network_loop)
+2025-09-05T23:30:09.979919 [INFO] VPNClient.start: started thread Thread-2 (_keepalive_loop)
+2025-09-05T23:30:09.980644 [INFO] VPN client started for peer bbeb29e3
+2025-09-05T23:30:12.899191 [INFO] join_room: room_id=va, username=Player_bbeb29e3
+2025-09-05T23:30:12.900481 [INFO] _network_loop: received 403 bytes from ('127.0.0.1', 5000)
+2025-09-05T23:30:12.900798 [INFO] _network_loop: received 144 bytes from ('127.0.0.1', 5000)
+2025-09-05T23:30:12.901739 [INFO] peer_joined: bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:12.901622 [INFO] _initiate_punch: Connecting to afc470da at ('127.0.0.1', 59315)
+2025-09-05T23:30:12.902418 [INFO] _initiate_punch: Connecting to bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:12.902571 [INFO] _initiate_punch: Connecting to e0abaac6 at ('127.0.0.1', 54946)
+2025-09-05T23:30:12.903308 [INFO] _initiate_punch: Connecting to e72b5c1e at ('127.0.0.1', 51805)
+2025-09-05T23:30:12.906852 [INFO] _network_loop: received 98 bytes from ('127.0.0.1', 50933)
+2025-09-05T23:30:12.907413 [INFO] punch_request from bbeb29e3
+2025-09-05T23:30:12.904430 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:12.927381 [INFO] _network_loop: received 98 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:12.928204 [INFO] punch_request from e72b5c1e
+2025-09-05T23:30:12.928782 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 50933)
+2025-09-05T23:30:12.929286 [INFO] punch_response from bbeb29e3
+2025-09-05T23:30:12.929884 [INFO] Connected to peer: bbeb29e3
+2025-09-05T23:30:12.932496 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:12.933347 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:12.935407 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:12.935832 [INFO] punch_response from e72b5c1e
+2025-09-05T23:30:12.936307 [INFO] Connected to peer: e72b5c1e
+2025-09-05T23:30:12.937948 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 50933)
+2025-09-05T23:30:12.937924 [INFO] _network_loop: sent packet to peer e72b5c1e at ('127.0.0.1', 51805)
+2025-09-05T23:30:12.938600 [INFO] _network_loop: received 52 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:12.941623 [INFO] _network_loop: sent packet to peer e72b5c1e at ('127.0.0.1', 51805)
+2025-09-05T23:30:13.077206 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:13.078239 [INFO] _network_loop: received 90 bytes from ('127.0.0.1', 50933)
+2025-09-05T23:30:13.080020 [INFO] _network_loop: sent packet to peer e72b5c1e at ('127.0.0.1', 51805)
+2025-09-05T23:30:13.080713 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:13.087337 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:13.088030 [INFO] _network_loop: received 72 bytes from ('127.0.0.1', 50933)
+2025-09-05T23:30:13.092109 [INFO] _network_loop: sent packet to peer e72b5c1e at ('127.0.0.1', 51805)
+2025-09-05T23:30:13.092738 [INFO] _network_loop: received 76 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:13.098794 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:13.099749 [INFO] _network_loop: received 90 bytes from ('127.0.0.1', 50933)
+2025-09-05T23:30:13.102987 [INFO] _network_loop: sent packet to peer e72b5c1e at ('127.0.0.1', 51805)
+2025-09-05T23:30:13.103654 [INFO] _network_loop: received 40 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:13.111443 [INFO] _network_loop: received 76 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:13.111421 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:13.112597 [INFO] _network_loop: received 158 bytes from ('127.0.0.1', 50933)
+2025-09-05T23:30:13.123286 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:13.234193 [INFO] _network_loop: received 72 bytes from ('127.0.0.1', 51805)
+ 50933)
+2025-09-05T23:30:13.343809 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:13.343888 [INFO] _network_loop: received 52 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:13.455110 [INFO] _network_loop: received 40 bytes from ('127.0.0.1', 51805)
+ 50933)
+2025-09-05T23:30:13.566389 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:13.566413 [INFO] _network_loop: received 76 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:13.677432 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:13.677437 [INFO] _network_loop: sent packet to peer e72b5c1e at ('127.0.0.1', 51805)
+2025-09-05T23:30:13.678496 [INFO] _network_loop: received 158 bytes from ('127.0.0.1', 50933)
+2025-09-05T23:30:13.678841 [INFO] _network_loop: received 40 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:13.690229 [INFO] _network_loop: received 76 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:13.690204 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:13.804193 [INFO] _network_loop: received 76 bytes from ('127.0.0.1', 51805)
+ 50933)
+2025-09-05T23:30:13.915625 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:13.915662 [INFO] _network_loop: received 40 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:14.027536 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:14.139174 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:14.249018 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:14.359135 [INFO] _network_loop: sent packet to peer e72b5c1e at ('127.0.0.1', 51805)
+2025-09-05T23:30:14.360528 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 50933)
+2025-09-05T23:30:14.360528 [INFO] _network_loop: received 40 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:14.373784 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:14.386954 [INFO] _network_loop: sent packet to peer e72b5c1e at ('127.0.0.1', 51805)
+2025-09-05T23:30:14.387036 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 50933)
+2025-09-05T23:30:14.388356 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:14.403962 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:14.403939 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:14.518086 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 51805)
+ 50933)
+2025-09-05T23:30:14.629492 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:14.629553 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:14.741400 [INFO] _network_loop: received 198 bytes from ('127.0.0.1', 51805)
+50933)
+2025-09-05T23:30:14.853427 [INFO] _network_loop: received 72 bytes from ('127.0.0.1', 51805)
+ 50933)
+2025-09-05T23:30:14.965490 [INFO] _network_loop: received 52 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:14.965600 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:15.077998 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:15.078052 [INFO] _network_loop: received 48 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:15.188889 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:15.301299 [INFO] _network_loop: received 76 bytes from ('127.0.0.1', 51805)
+ 50933)
+2025-09-05T23:30:15.413599 [INFO] _network_loop: received 40 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:15.413565 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:15.525320 [INFO] _network_loop: received 76 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:15.525292 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:15.636663 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:15.636760 [INFO] _network_loop: received 40 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:15.746869 [INFO] _network_loop: received 72 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:15.746799 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:15.858361 [INFO] _network_loop: received 52 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:15.858343 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:15.970005 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:16.079875 [INFO] _network_loop: received 76 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:16.079841 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:16.189380 [INFO] _network_loop: received 70 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:16.189344 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:16.299803 [INFO] _network_loop: sent packet to peer e72b5c1e at ('127.0.0.1', 51805)
+2025-09-05T23:30:16.299876 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:16.300581 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:16.300946 [INFO] _network_loop: received 76 bytes from ('127.0.0.1', 50933)
+2025-09-05T23:30:16.312054 [INFO] _network_loop: sent packet to peer e72b5c1e at ('127.0.0.1', 51805)
+2025-09-05T23:30:16.317085 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 51805)
+ 50933)
+2025-09-05T23:30:16.318002 [INFO] _network_loop: received 76 bytes from ('127.0.0.1', 50933)
+2025-09-05T23:30:16.333522 [INFO] _network_loop: received 90 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:16.333474 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:16.442687 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:16.553622 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:16.553547 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:16.664795 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:16.664791 [INFO] _network_loop: received 70 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:16.776263 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:16.777330 [INFO] _network_loop: received 76 bytes from ('127.0.0.1', 50933)
+2025-09-05T23:30:16.777330 [INFO] _network_loop: received 90 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:16.790102 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:16.887554 [INFO] _network_loop: received 52 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:16.887507 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:16.998583 [INFO] _network_loop: received 70 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:16.998573 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:17.108908 [INFO] _network_loop: received 90 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:17.108888 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:17.220665 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:17.331432 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:17.442506 [INFO] _network_loop: received 138 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:17.442483 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:17.553488 [INFO] _network_loop: received 158 bytes from ('127.0.0.1', 51805)
+50933)
+2025-09-05T23:30:17.663914 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:17.663889 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:17.774143 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:17.774001 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:17.886243 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:17.886298 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:17.987110 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 51805)
+ 50933)
+2025-09-05T23:30:18.090286 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 51805)
+2025-09-05T23:30:18.090209 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:18.194250 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:18.307105 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:18.420175 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:18.425204 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:18.487527 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:18.490939 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:18.497053 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:18.498451 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:18.502879 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:18.503694 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:18.509842 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:18.511092 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:18.518954 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:18.519970 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:18.525943 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:18.526881 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:18.533855 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:18.534926 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:18.541379 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:18.542645 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:18.548892 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:18.549938 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:18.558083 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:18.559120 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:18.564602 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:18.565513 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:18.571575 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:18.572472 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:18.579967 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:18.580880 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:18.589745 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:18.590777 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:18.617300 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:18.619298 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:18.629130 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:18.630219 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:18.641442 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:18.642760 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:18.651345 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:18.652487 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:18.662425 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:18.663338 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:18.668073 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:18.668975 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:18.772190 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:18.773187 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:18.780398 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:18.781678 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:18.886982 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:18.888108 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:18.892194 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:18.893267 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:18.898191 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:18.899345 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:19.313582 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:19.314650 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:19.319482 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:19.320461 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:19.322748 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:19.323700 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:19.327344 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:19.328264 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:19.340214 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:19.341593 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:19.344777 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:19.345426 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:19.452150 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:19.453149 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:19.456973 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:19.457892 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:19.666829 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:19.667755 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:19.671227 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:19.671962 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:19.675017 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:19.675811 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:19.678553 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:19.679288 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:19.682427 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:19.683623 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:19.692799 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:19.694069 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:19.699421 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:19.700683 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:19.703906 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:19.704937 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:19.807412 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:19.808446 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:19.821106 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:19.822077 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:19.830838 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:19.831779 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:20.053426 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:20.054521 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:20.709786 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:20.711110 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:20.716466 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:20.717562 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:20.820317 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:20.821295 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:20.826423 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:20.827312 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:20.841468 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:20.842831 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:20.847269 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:20.848392 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:20.853059 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:20.853956 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:20.864240 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:20.865397 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:20.870182 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:20.871212 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:20.875110 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:20.875814 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:20.885130 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:20.886354 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:20.889821 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:20.890811 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:20.994336 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:20.995274 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:30:21.104089 [INFO] _network_loop: sent packet to peer bbeb29e3 at ('127.0.0.1', 50933)
+2025-09-05T23:30:21.105045 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:37:57.768348 [INFO] VPNClient.start: creating UDP socket
+2025-09-05T23:37:57.771127 [INFO] VPNClient.start: UDP socket bound to ('0.0.0.0', 56374)
+2025-09-05T23:37:57.771782 [INFO] Attempting to create/open adapter with name: LANVPN-993ae972
+2025-09-05T23:37:57.772234 [INFO] create_adapter: attempting to create/open adapter 'LANVPN-993ae972'
+2025-09-05T23:37:58.106624 [INFO] create_adapter: created adapter=True
+2025-09-05T23:37:58.107405 [INFO] start_session: starting session
+2025-09-05T23:37:58.107926 [INFO] WintunStartSession func: <_FuncPtr object at 0x000002DE295365B0>
+2025-09-05T23:37:58.109517 [INFO] start_session: session started=True
+2025-09-05T23:37:58.112503 [INFO] VPNClient.start: running=True, peer_id=993ae972
+2025-09-05T23:37:58.116023 [INFO] VPNClient.start: started thread Thread-1 (_network_loop)
+2025-09-05T23:37:58.119247 [INFO] VPNClient.start: started thread Thread-2 (_keepalive_loop)
+2025-09-05T23:37:58.120213 [INFO] VPN client started for peer 993ae972
+2025-09-05T23:38:01.373573 [INFO] VPNClient.start: creating UDP socket
+2025-09-05T23:38:01.374974 [INFO] VPNClient.start: UDP socket bound to ('0.0.0.0', 64203)
+2025-09-05T23:38:01.375428 [INFO] Attempting to create/open adapter with name: LANVPN-d58b55cf
+2025-09-05T23:38:01.376084 [INFO] create_adapter: attempting to create/open adapter 'LANVPN-d58b55cf'
+2025-09-05T23:38:01.621949 [INFO] create_adapter: created adapter=True
+2025-09-05T23:38:01.622646 [INFO] start_session: starting session
+2025-09-05T23:38:01.623352 [INFO] WintunStartSession func: <_FuncPtr object at 0x000002378E9465B0>
+2025-09-05T23:38:01.625597 [INFO] start_session: session started=True
+2025-09-05T23:38:01.629235 [INFO] VPNClient.start: running=True, peer_id=d58b55cf
+2025-09-05T23:38:01.640684 [INFO] VPNClient.start: started thread Thread-1 (_network_loop)
+2025-09-05T23:38:01.642520 [INFO] VPNClient.start: started thread Thread-2 (_keepalive_loop)
+2025-09-05T23:38:01.643079 [INFO] VPN client started for peer d58b55cf
+2025-09-05T23:38:04.315688 [INFO] create_room: room_id=va, username=Player_d58b55cf
+2025-09-05T23:38:04.317209 [INFO] _network_loop: received 112 bytes from ('127.0.0.1', 5000)
+2025-09-05T23:38:04.317797 [INFO] Room created successfully
+2025-09-05T23:38:08.743443 [INFO] join_room: room_id=va, username=Player_993ae972
+2025-09-05T23:38:08.744870 [INFO] _network_loop: received 217 bytes from ('127.0.0.1', 5000)
+2025-09-05T23:38:08.744993 [INFO] _network_loop: received 144 bytes from ('127.0.0.1', 5000)
+2025-09-05T23:38:08.745361 [INFO] Joined room successfully
+2025-09-05T23:38:08.745697 [INFO] peer_joined: 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:08.745972 [INFO] _initiate_punch: Connecting to d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:08.746228 [INFO] _initiate_punch: Connecting to 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:08.747158 [INFO] _network_loop: received 98 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:08.747545 [INFO] punch_request from 993ae972
+2025-09-05T23:38:08.769415 [INFO] _network_loop: received 98 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:08.770221 [INFO] punch_request from d58b55cf
+2025-09-05T23:38:08.771103 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:08.771874 [INFO] punch_response from 993ae972
+2025-09-05T23:38:08.773221 [INFO] Connected to peer: 993ae972
+2025-09-05T23:38:08.774202 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:08.775217 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:08.775855 [INFO] punch_response from d58b55cf
+2025-09-05T23:38:08.776500 [INFO] Connected to peer: d58b55cf
+2025-09-05T23:38:08.780378 [INFO] _network_loop: received 72 bytes from ('127.0.0.1', 56374)
+ 64203)
+2025-09-05T23:38:08.781065 [INFO] _network_loop: received 90 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:08.788964 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:08.799232 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:08.799292 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:08.799941 [INFO] _network_loop: received 52 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:08.806495 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:08.811385 [INFO] _network_loop: received 40 bytes from ('127.0.0.1', 56374)
+ 64203)
+2025-09-05T23:38:08.812201 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:08.818332 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:08.822344 [INFO] _network_loop: received 76 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:08.925439 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:08.933153 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:08.950423 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:08.958011 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:08.958042 [INFO] _network_loop: received 90 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:08.979227 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:08.979326 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:09.084788 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:09.195641 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:09.195659 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:09.196596 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:09.196602 [INFO] _network_loop: received 158 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:09.207224 [INFO] _network_loop: received 40 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:09.207185 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:09.306660 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:09.306760 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:09.416555 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:09.416601 [INFO] _network_loop: received 72 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:09.528004 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:09.528088 [INFO] _network_loop: received 52 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:09.637756 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:09.748582 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:09.859159 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:09.970079 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 56374)
+ 64203)
+2025-09-05T23:38:10.080100 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:10.080275 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:10.191777 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:10.191776 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:10.192961 [INFO] _network_loop: received 158 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:10.192893 [INFO] _network_loop: received 70 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:10.202820 [INFO] _network_loop: received 90 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:10.202799 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:10.302780 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:10.302764 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:10.414192 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 56374)
+ 64203)
+2025-09-05T23:38:10.525447 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 56374)
+ 64203)
+2025-09-05T23:38:10.635571 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:10.635537 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:10.746734 [INFO] _network_loop: received 70 bytes from ('127.0.0.1', 56374)
+ 64203)
+2025-09-05T23:38:10.857881 [INFO] _network_loop: received 90 bytes from ('127.0.0.1', 56374)
+ 64203)
+2025-09-05T23:38:10.968259 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:10.968298 [INFO] _network_loop: received 70 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:11.078532 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:11.188649 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:11.188676 [INFO] _network_loop: received 138 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:11.298785 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:11.298723 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:11.300095 [INFO] _network_loop: received 40 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:11.300186 [INFO] _network_loop: received 158 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:11.316389 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:11.316735 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:11.317488 [INFO] _network_loop: received 76 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:11.318002 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:11.327819 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:11.334500 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:11.335472 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:11.347311 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:11.356065 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:11.356090 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:11.356912 [INFO] _network_loop: received 40 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:11.367446 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:11.380217 [INFO] _network_loop: received 76 bytes from ('127.0.0.1', 64203)
+ 56374)
+2025-09-05T23:38:11.381235 [INFO] _network_loop: received 198 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:11.390627 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:11.399321 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:11.399358 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:11.400177 [INFO] _network_loop: received 40 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:11.422010 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:11.422602 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:11.422847 [INFO] _network_loop: received 72 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:11.423447 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:11.434801 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:11.439609 [INFO] _network_loop: received 52 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:11.439578 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:11.440619 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:11.454257 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:11.461877 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:11.461916 [INFO] _network_loop: received 138 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:11.462962 [INFO] _network_loop: received 76 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:11.472758 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:11.494647 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:11.495755 [INFO] _network_loop: received 158 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:11.502954 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:11.506470 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:11.507511 [INFO] _network_loop: received 198 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:11.513610 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:11.615524 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:11.656365 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:11.656397 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:11.657161 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:11.669392 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:11.670855 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:11.670884 [INFO] _network_loop: received 76 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:11.671639 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:11.681252 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:11.683153 [INFO] _network_loop: received 40 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:11.683131 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:11.684088 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:11.690605 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:11.693082 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:11.693820 [INFO] _network_loop: received 40 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:11.704281 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:11.705388 [INFO] _network_loop: received 40 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:11.705382 [INFO] _network_loop: received 72 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:11.717765 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:11.718669 [INFO] _network_loop: received 52 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:11.729516 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:11.739104 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:11.740144 [INFO] _network_loop: received 52 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:11.748597 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:11.754031 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:11.754026 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:11.755056 [INFO] _network_loop: received 40 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:11.764502 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:11.868689 [INFO] _network_loop: received 76 bytes from ('127.0.0.1', 56374)
+ 64203)
+2025-09-05T23:38:11.980138 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:12.089218 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:12.090933 [INFO] _network_loop: received 198 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:12.090932 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:12.103369 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:12.106283 [INFO] _network_loop: received 72 bytes from ('127.0.0.1', 56374)
+ 64203)
+2025-09-05T23:38:12.108048 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:12.117324 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:12.122537 [INFO] _network_loop: received 52 bytes from ('127.0.0.1', 56374)
+ 64203)
+2025-09-05T23:38:12.123769 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:12.133688 [INFO] _network_loop: received 48 bytes from ('127.0.0.1', 56374)
+ 64203)
+2025-09-05T23:38:12.232122 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 56374)
+ 64203)
+2025-09-05T23:38:12.343668 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:12.455896 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:12.467741 [INFO] _network_loop: received 70 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:12.467735 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:12.469193 [INFO] _network_loop: received 70 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:12.480431 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:12.491961 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:12.491997 [INFO] _network_loop: received 90 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:12.493073 [INFO] _network_loop: received 90 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:12.500406 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:12.506735 [INFO] _network_loop: received 70 bytes from ('127.0.0.1', 64203)
+ 56374)
+2025-09-05T23:38:12.508188 [INFO] _network_loop: received 70 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:12.515410 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:12.520268 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:12.520291 [INFO] _network_loop: received 90 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:12.521225 [INFO] _network_loop: received 90 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:12.527980 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:12.531380 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:12.531374 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:12.532340 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:12.540908 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:12.545479 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:12.546320 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:12.554016 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:12.558834 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:12.558840 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:12.560039 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:12.568520 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:12.573448 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:12.573478 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:12.574413 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:12.580251 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:12.586986 [INFO] _network_loop: received 70 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:12.586967 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:12.588078 [INFO] _network_loop: received 198 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:12.594355 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:12.598621 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:12.598648 [INFO] _network_loop: received 90 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:12.600710 [INFO] _network_loop: received 70 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:12.607427 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:12.611432 [INFO] _network_loop: received 138 bytes from ('127.0.0.1', 64203)
+56374)
+2025-09-05T23:38:12.612377 [INFO] _network_loop: received 90 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:12.621543 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:12.625807 [INFO] _network_loop: received 158 bytes from ('127.0.0.1', 64203)
+56374)
+2025-09-05T23:38:12.627017 [INFO] _network_loop: received 138 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:12.633579 [INFO] _network_loop: received 158 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:12.836634 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:12.836644 [INFO] _network_loop: received 198 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:12.844998 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:12.948231 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:12.948281 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:13.059427 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 64203)
+ 56374)
+2025-09-05T23:38:13.169655 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:13.169639 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:13.611710 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:13.613117 [INFO] _network_loop: received 138 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:13.612993 [INFO] _network_loop: received 138 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:13.623000 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:13.626877 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:13.626916 [INFO] _network_loop: received 158 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:13.627634 [INFO] _network_loop: received 158 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:13.636015 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:13.738748 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 64203)
+ 56374)
+2025-09-05T23:38:13.850216 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:13.851069 [INFO] _network_loop: received 198 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:13.851169 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:13.864692 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:13.864724 [INFO] _network_loop: received 198 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:14.198442 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:14.199766 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:14.199984 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:14.641796 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:14.643064 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:14.643080 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:14.653382 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:14.653396 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:14.654312 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:14.654355 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:14.881511 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:14.882542 [INFO] _network_loop: received 198 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:14.882599 [INFO] _network_loop: received 198 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:15.879812 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:15.879988 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:15.880865 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:15.881327 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:15.892864 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:15.896960 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:15.897882 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:15.904906 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:15.909587 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:15.909547 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:15.910638 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:15.918531 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:15.923148 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:15.924056 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:15.931531 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:15.934254 [INFO] _network_loop: received 198 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:15.934235 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:15.935087 [INFO] _network_loop: received 198 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:16.814719 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:16.814752 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:16.815811 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:16.816061 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:16.829298 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:16.842351 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:16.842348 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:16.844739 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:16.853297 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:16.860845 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:16.860804 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:16.862394 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:16.872173 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:16.881023 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:16.881058 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:16.882713 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:17.210622 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:17.210549 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:17.220428 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:17.671151 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:17.671666 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:17.672272 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:17.672677 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:17.685457 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:17.685972 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:17.686563 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:17.687156 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:18.240434 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:18.241533 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:18.241533 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:18.905215 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:18.906315 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:18.906311 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:18.923814 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:18.926492 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:18.926521 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:18.927396 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:18.939832 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:18.945344 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:18.947135 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:18.959292 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:18.964235 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:18.964277 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:18.965134 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:21.186661 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:21.186562 [INFO] _network_loop: sent packet to peer 993ae972 at ('127.0.0.1', 56374)
+2025-09-05T23:38:21.187820 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 64203)
+2025-09-05T23:38:21.188564 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 56374)
+2025-09-05T23:38:24.183790 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 64203)
+56374)
+2025-09-05T23:38:24.191432 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:27.627826 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:27.676219 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:27.751374 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:27.752443 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:27.757783 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:27.758867 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:27.769821 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:27.771763 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:27.779197 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:27.780426 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:27.788918 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:27.789895 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:27.798711 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:27.799771 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:27.808234 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:27.809409 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:27.816720 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:27.817734 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:27.824414 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:27.825586 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:27.834189 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:27.835511 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:27.842017 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:27.842964 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:27.851857 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:27.852930 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:27.961196 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:27.962375 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:27.972456 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:27.973998 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:27.981200 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:27.982319 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:27.989100 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:27.991266 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:27.997658 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:27.998796 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:28.007348 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:28.008455 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:28.216660 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:28.217703 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:28.225256 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:28.226331 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:28.232021 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:28.232875 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:28.236531 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:28.237763 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:28.243294 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:28.245957 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:28.250748 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:28.252081 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:28.669403 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:28.670437 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:28.674796 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:28.675820 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:28.679316 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:28.680972 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:28.683782 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:28.684552 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:28.689168 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:28.690161 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:28.694452 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:28.695794 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:28.799509 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:28.800894 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:28.807264 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:28.808296 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:28.814780 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:28.815843 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:28.821708 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:28.822746 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:29.030780 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:29.032283 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:29.039593 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:29.040982 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:29.045940 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:29.046818 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:29.056428 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:29.057748 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:29.162281 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:29.163155 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:29.167803 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:29.168594 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:29.173398 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:29.174445 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:29.177610 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:29.178501 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:29.277987 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:29.279184 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:30.223277 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:30.224432 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:30.227290 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:30.227895 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:30.334325 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:30.335405 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:30.768922 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:30.770321 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:31.202306 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:31.203253 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:31.308215 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:31.309169 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:31.316821 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:31.317996 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:32.261140 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:37.170546 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:37.172371 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:37.173183 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:37.175682 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:37.176473 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:37.179370 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:37.180312 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:37.183749 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:37.184720 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:37.187214 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:37.188093 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:37.191361 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:37.193260 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:37.195763 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:37.196440 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:37.199059 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:37.200026 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:37.202808 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:37.203487 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:37.205438 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:37.206342 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:37.210831 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:37.211755 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:37.213698 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:37.214553 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-05T23:38:37.217700 [INFO] _network_loop: sent packet to peer d58b55cf at ('127.0.0.1', 64203)
+2025-09-05T23:38:37.218626 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:32:31.552781 [INFO] VPNClient.start: creating UDP socket
+2025-09-07T11:32:31.555584 [INFO] VPNClient.start: UDP socket bound to ('0.0.0.0', 56940)
+2025-09-07T11:32:31.556280 [INFO] Attempting to create/open adapter with name: LANVPN-57ea3079
+2025-09-07T11:32:31.557076 [INFO] create_adapter: attempting to create/open adapter 'LANVPN-57ea3079'
+2025-09-07T11:32:32.000737 [INFO] create_adapter: created adapter=True
+2025-09-07T11:32:32.001319 [INFO] start_session: starting session
+2025-09-07T11:32:32.001790 [INFO] WintunStartSession func: <_FuncPtr object at 0x000002E0F78C65B0>
+2025-09-07T11:32:32.003107 [INFO] start_session: session started=True
+2025-09-07T11:32:32.007238 [INFO] VPNClient.start: running=True, peer_id=57ea3079
+2025-09-07T11:32:32.023408 [INFO] VPNClient.start: started thread Thread-1 (_network_loop)
+2025-09-07T11:32:32.025961 [INFO] VPNClient.start: started thread Thread-2 (_keepalive_loop)
+2025-09-07T11:32:32.026541 [INFO] VPN client started for peer 57ea3079
+2025-09-07T11:32:35.334545 [INFO] VPNClient.start: creating UDP socket
+2025-09-07T11:32:35.336427 [INFO] VPNClient.start: UDP socket bound to ('0.0.0.0', 50850)
+2025-09-07T11:32:35.336885 [INFO] Attempting to create/open adapter with name: LANVPN-7f021ec0
+2025-09-07T11:32:35.337254 [INFO] create_adapter: attempting to create/open adapter 'LANVPN-7f021ec0'
+2025-09-07T11:32:35.634226 [INFO] create_adapter: created adapter=True
+2025-09-07T11:32:35.634947 [INFO] start_session: starting session
+2025-09-07T11:32:35.635454 [INFO] WintunStartSession func: <_FuncPtr object at 0x0000020498EA65B0>
+2025-09-07T11:32:35.636722 [INFO] start_session: session started=True
+2025-09-07T11:32:35.642503 [INFO] VPNClient.start: running=True, peer_id=7f021ec0
+2025-09-07T11:32:35.645163 [INFO] VPNClient.start: started thread Thread-1 (_network_loop)
+2025-09-07T11:32:35.648913 [INFO] VPNClient.start: started thread Thread-2 (_keepalive_loop)
+2025-09-07T11:32:35.649674 [INFO] VPN client started for peer 7f021ec0
+2025-09-07T11:32:38.868511 [INFO] create_room: room_id=va, username=Player_7f021ec0
+2025-09-07T11:32:38.870542 [INFO] _network_loop: received 112 bytes from ('127.0.0.1', 5000)
+2025-09-07T11:32:38.871105 [INFO] Room created successfully
+2025-09-07T11:32:43.937675 [INFO] join_room: room_id=va, username=Player_57ea3079
+2025-09-07T11:32:43.940045 [INFO] _network_loop: received 217 bytes from ('127.0.0.1', 5000)
+2025-09-07T11:32:43.940167 [INFO] _network_loop: received 144 bytes from ('127.0.0.1', 5000)
+2025-09-07T11:32:43.940648 [INFO] Joined room successfully
+2025-09-07T11:32:43.940891 [INFO] peer_joined: 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:43.941410 [INFO] _initiate_punch: Connecting to 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:43.942157 [INFO] _network_loop: received 98 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:43.942579 [INFO] punch_request from 57ea3079
+2025-09-07T11:32:43.946987 [INFO] _network_loop: received 98 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:43.947431 [INFO] punch_request from 7f021ec0
+2025-09-07T11:32:43.947910 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:43.948345 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:43.948484 [INFO] punch_response from 57ea3079
+2025-09-07T11:32:43.948824 [INFO] punch_response from 7f021ec0
+2025-09-07T11:32:43.949035 [INFO] Connected to peer: 57ea3079
+2025-09-07T11:32:43.949361 [INFO] Connected to peer: 7f021ec0
+2025-09-07T11:32:43.950309 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:43.950328 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:44.058288 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:44.059428 [INFO] _network_loop: received 356 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:44.059694 [INFO] _network_loop: received 70 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:44.066906 [INFO] _network_loop: received 90 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:44.066870 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:44.170016 [INFO] _network_loop: received 70 bytes from ('127.0.0.1', 56940)
+ 50850)
+2025-09-07T11:32:44.282748 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:44.395393 [INFO] _network_loop: received 70 bytes from ('127.0.0.1', 56940)
+ 50850)
+2025-09-07T11:32:44.506074 [INFO] _network_loop: received 90 bytes from ('127.0.0.1', 56940)
+ 50850)
+2025-09-07T11:32:44.623951 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:44.624005 [INFO] _network_loop: received 336 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:44.727611 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:44.727651 [INFO] _network_loop: received 356 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:44.838426 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:44.839573 [INFO] _network_loop: received 76 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:44.839567 [INFO] _network_loop: received 198 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:44.849007 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:44.863170 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:44.864101 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:44.872270 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 56940)
+ 50850)
+2025-09-07T11:32:44.983007 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 56940)
+ 50850)
+2025-09-07T11:32:45.094010 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:45.094945 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:45.094982 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:45.095624 [INFO] _network_loop: received 76 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:45.105512 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 56940)
+ 50850)
+2025-09-07T11:32:45.222855 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 56940)
+ 50850)
+2025-09-07T11:32:45.335398 [INFO] _network_loop: received 336 bytes from ('127.0.0.1', 56940)
+50850)
+2025-09-07T11:32:45.446743 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:45.446812 [INFO] _network_loop: received 356 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:45.557631 [INFO] _network_loop: received 198 bytes from ('127.0.0.1', 56940)
+50850)
+2025-09-07T11:32:45.667830 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:45.668932 [INFO] _network_loop: received 76 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:45.668938 [INFO] _network_loop: received 76 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:45.679065 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:45.679900 [INFO] _network_loop: received 40 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:45.679899 [INFO] _network_loop: received 40 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:45.690821 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:45.691206 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:45.691706 [INFO] _network_loop: received 76 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:45.692097 [INFO] _network_loop: received 76 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:45.703210 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:45.705388 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:45.706247 [INFO] _network_loop: received 40 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:45.713815 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:45.717323 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 56940)
+50850)
+2025-09-07T11:32:45.718294 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:45.725179 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:45.727554 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:45.728406 [INFO] _network_loop: received 48 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:45.737025 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:45.740523 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:45.740558 [INFO] _network_loop: received 76 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:45.741423 [INFO] _network_loop: received 72 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:45.751009 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:45.755822 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:45.756760 [INFO] _network_loop: received 52 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:45.766851 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:45.782252 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:45.783237 [INFO] _network_loop: received 76 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:45.791242 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:45.795686 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:45.795726 [INFO] _network_loop: received 76 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:45.796652 [INFO] _network_loop: received 40 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:45.804809 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:45.806007 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:45.806032 [INFO] _network_loop: received 40 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:45.806760 [INFO] _network_loop: received 76 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:45.817161 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:45.817679 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:45.817927 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:45.818689 [INFO] _network_loop: received 40 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:45.828948 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:45.830659 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:45.831558 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:45.838896 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:45.842603 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:45.843569 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:45.851880 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:45.968444 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:45.968521 [INFO] _network_loop: received 72 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:46.079521 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:46.079641 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:46.080667 [INFO] _network_loop: received 52 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:46.080861 [INFO] _network_loop: received 72 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:46.090745 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:46.091796 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:46.091822 [INFO] _network_loop: received 52 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:46.092537 [INFO] _network_loop: received 40 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:46.101529 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:46.102994 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:46.103025 [INFO] _network_loop: received 56 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:46.103659 [INFO] _network_loop: received 76 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:46.113468 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:46.124176 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:46.124209 [INFO] _network_loop: received 76 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:46.125007 [INFO] _network_loop: received 116 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:46.134115 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:46.134131 [INFO] _network_loop: received 40 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:46.239869 [INFO] _network_loop: received 72 bytes from ('127.0.0.1', 56940)
+ 50850)
+2025-09-07T11:32:46.247837 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:46.264371 [INFO] _network_loop: received 52 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:46.264334 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:46.270890 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 50850)
+ 56940)
+2025-09-07T11:32:46.287118 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:46.287120 [INFO] _network_loop: received 56 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:46.293495 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 50850)
+ 56940)
+2025-09-07T11:32:46.309888 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:46.309921 [INFO] _network_loop: received 116 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:46.315686 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:46.315668 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:46.331748 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 56940)
+ 50850)
+2025-09-07T11:32:46.446767 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:46.448061 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:46.448071 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:46.460051 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:46.460865 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 56940)
+ 50850)
+2025-09-07T11:32:46.461916 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:46.472524 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:46.472594 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:46.473420 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:46.473475 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:46.485306 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:46.720270 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:46.754766 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:46.754846 [INFO] _network_loop: received 70 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:46.756390 [INFO] _network_loop: received 70 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:46.763850 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:46.769450 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:46.769494 [INFO] _network_loop: received 90 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:46.770516 [INFO] _network_loop: received 90 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:46.778821 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:46.788872 [INFO] _network_loop: received 70 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:46.788846 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:46.789888 [INFO] _network_loop: received 70 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:46.797643 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:46.809058 [INFO] _network_loop: received 90 bytes from ('127.0.0.1', 56940)
+ 50850)
+2025-09-07T11:32:46.809927 [INFO] _network_loop: received 90 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:46.926476 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:46.926476 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:46.927639 [INFO] _network_loop: received 70 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:46.927639 [INFO] _network_loop: received 70 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:46.939141 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:46.950869 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:46.950909 [INFO] _network_loop: received 90 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:46.951783 [INFO] _network_loop: received 90 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:47.072029 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:47.073340 [INFO] _network_loop: received 336 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:47.073310 [INFO] _network_loop: received 336 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:47.083183 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:47.095987 [INFO] _network_loop: received 356 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:47.095958 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:47.096861 [INFO] _network_loop: received 356 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:47.215196 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:47.215277 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:47.216345 [INFO] _network_loop: received 198 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:47.216764 [INFO] _network_loop: received 198 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:47.230163 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:47.230188 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:47.341443 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 50850)
+ 56940)
+2025-09-07T11:32:47.451661 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 50850)
+ 56940)
+2025-09-07T11:32:48.007598 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:48.007806 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:48.017343 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:48.017349 [INFO] _network_loop: received 336 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:48.033614 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:48.033641 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:48.040985 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:48.059771 [INFO] _network_loop: received 96 bytes from ('127.0.0.1', 50850)
+ 56940)
+2025-09-07T11:32:48.067132 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:48.067158 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:48.084041 [INFO] _network_loop: received 336 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:48.084026 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:48.200360 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:48.201721 [INFO] _network_loop: received 356 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:48.201563 [INFO] _network_loop: received 198 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:48.213476 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:48.213498 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:48.313087 [INFO] _network_loop: received 198 bytes from ('127.0.0.1', 50850)
+56940)
+2025-09-07T11:32:49.218883 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:49.218883 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:49.219680 [INFO] _network_loop: received 198 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:49.219893 [INFO] _network_loop: received 198 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:50.233704 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:50.233861 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:50.235524 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:50.235692 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:50.254487 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:50.255069 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:50.255379 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:50.255946 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:50.269228 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:50.270467 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 50850)
+ 56940)
+2025-09-07T11:32:50.271223 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:50.280186 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:50.280991 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:50.281013 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:50.281742 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:50.290701 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:50.292680 [INFO] _network_loop: received 198 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:50.292655 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:50.293590 [INFO] _network_loop: received 198 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:51.066284 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:51.066328 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:51.075189 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 56940)
+50850)
+2025-09-07T11:32:51.172914 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:51.173892 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:51.173892 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:51.190310 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:51.193182 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:51.193143 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:51.194152 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:51.204872 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:51.208927 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 50850)
+ 56940)
+2025-09-07T11:32:51.209941 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:51.217987 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:51.223139 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 50850)
+ 56940)
+2025-09-07T11:32:51.224232 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:51.432986 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:51.433153 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:51.440345 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:51.440382 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:51.447985 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:51.448020 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:51.454141 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:51.454238 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:52.086916 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:52.088140 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:52.088199 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:53.239162 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:53.240434 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:53.240347 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:53.252394 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:53.253568 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:53.253601 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:53.263469 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:53.263610 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:53.264264 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:53.264518 [INFO] _network_loop: received 68 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:53.276076 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:53.279148 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:53.279199 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:53.280164 [INFO] _network_loop: received 88 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:54.445934 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:54.454168 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:54.454202 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:54.557225 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:54.558631 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:54.558584 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:55.112939 [INFO] _network_loop: sent packet to peer 7f021ec0 at ('127.0.0.1', 50850)
+2025-09-07T11:32:55.114068 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:55.114124 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:32:58.159855 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:32:58.161618 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 56940)
+2025-09-07T11:32:58.161508 [INFO] _network_loop: received 165 bytes from ('127.0.0.1', 50850)
+2025-09-07T11:33:22.012686 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:22.048880 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:22.097438 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:22.099199 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:22.103866 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:22.106376 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:22.124411 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:22.125318 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:22.131920 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:22.133152 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:22.138148 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:22.139281 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:22.144818 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:22.145870 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:22.151148 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:22.152360 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:22.157239 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:22.158356 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:22.163252 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:22.164293 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:22.168026 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:22.169149 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:22.173074 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:22.173914 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:22.177835 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:22.178798 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:22.182203 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:22.183082 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:22.187277 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:22.188437 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:22.193497 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:22.194427 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:22.198078 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:22.198949 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:22.300528 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:22.301457 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:22.402876 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:22.403911 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:22.505708 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:22.506668 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:22.511049 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:22.512042 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:23.156732 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:23.157618 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:23.161462 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:23.162494 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:23.164404 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:23.165257 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:23.167494 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:23.168397 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:23.274181 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:23.275018 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:23.277961 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:23.279025 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:23.484684 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:23.485961 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:23.488648 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:23.489317 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:23.699160 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:23.700340 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:24.439413 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:24.440499 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:24.442310 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:24.443057 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:24.662160 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:24.663071 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:25.105349 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:25.107042 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:25.425572 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:25.426422 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:25.428118 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:25.428657 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:25.744249 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:25.745317 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:26.704441 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:26.705236 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:26.707154 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:26.707704 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:26.709479 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:26.710319 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:26.712121 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:26.712847 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:26.714247 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:26.714792 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:27.719482 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:27.720417 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:27.722943 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:27.723781 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:27.726278 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:27.726887 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:27.729242 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:27.730109 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:28.151591 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:28.153009 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:29.705380 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:29.706875 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:29.708722 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:29.709455 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:29.711306 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:29.711934 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:29.713978 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:33:29.714788 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:33:35.655054 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:34:00.591819 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:34:00.592949 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:34:00.596478 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:34:00.597399 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:34:00.599936 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:34:00.600480 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:34:00.603275 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:34:00.604154 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:34:00.809402 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:34:00.810547 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:34:00.813525 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:34:00.814167 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:34:01.127542 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:34:01.128516 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:34:01.132293 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:34:01.134007 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:34:01.349097 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:34:01.350246 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:34:01.353757 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:34:01.354461 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:34:01.356689 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:34:01.357532 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:34:01.359332 [INFO] _network_loop: sent packet to peer 57ea3079 at ('127.0.0.1', 56940)
+2025-09-07T11:34:01.359995 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:34:05.657244 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:34:35.661841 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:35:05.664271 [ERROR] _network_loop: recvfrom failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\lan\lan\client.py", line 304, in _network_loop
+    data, addr = self.udp_socket.recvfrom(65536)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-09-07T11:38:05.490807 [INFO] VPNClient.start: creating UDP socket
+2025-09-07T11:38:05.492686 [INFO] VPNClient.start: UDP socket bound to ('0.0.0.0', 57764)
+2025-09-07T11:38:05.493305 [INFO] Attempting to create/open adapter with name: LANVPN-742785b8
+2025-09-07T11:38:05.494013 [INFO] create_adapter: attempting to create/open adapter 'LANVPN-742785b8'
+2025-09-07T11:38:05.823496 [INFO] create_adapter: created adapter=True
+2025-09-07T11:38:05.824256 [INFO] start_session: starting session
+2025-09-07T11:38:05.824838 [INFO] WintunStartSession func: <_FuncPtr object at 0x000001D1CBE065B0>
+2025-09-07T11:38:05.826582 [INFO] start_session: session started=True
+2025-09-07T11:38:05.840659 [INFO] VPNClient.start: running=True, peer_id=742785b8
+2025-09-07T11:38:05.846812 [INFO] VPNClient.start: started thread Thread-1 (_network_loop)
+2025-09-07T11:38:05.851534 [INFO] VPNClient.start: started thread Thread-2 (_keepalive_loop)
+2025-09-07T11:38:05.852438 [INFO] VPN client started for peer 742785b8
+2025-09-07T11:38:11.056199 [INFO] VPNClient.start: creating UDP socket
+2025-09-07T11:38:11.057822 [INFO] VPNClient.start: UDP socket bound to ('0.0.0.0', 58178)
+2025-09-07T11:38:11.058593 [INFO] Attempting to create/open adapter with name: LANVPN-86d1bd96
+2025-09-07T11:38:11.059090 [INFO] create_adapter: attempting to create/open adapter 'LANVPN-86d1bd96'
+2025-09-07T11:38:11.382455 [INFO] create_adapter: created adapter=True
+2025-09-07T11:38:11.383257 [INFO] start_session: starting session
+2025-09-07T11:38:11.383970 [INFO] WintunStartSession func: <_FuncPtr object at 0x00000208B88765B0>
+2025-09-07T11:38:11.393633 [INFO] start_session: session started=True
+2025-09-07T11:38:11.401232 [INFO] VPNClient.start: running=True, peer_id=86d1bd96
+2025-09-07T11:38:11.426670 [INFO] VPNClient.start: started thread Thread-1 (_network_loop)
+2025-09-07T11:38:11.428229 [INFO] VPNClient.start: started thread Thread-2 (_keepalive_loop)
+2025-09-07T11:38:11.429033 [INFO] VPN client started for peer 86d1bd96
+2025-09-07T11:38:14.556941 [INFO] create_room: room_id=va, username=Player_86d1bd96
+2025-09-07T11:38:14.560666 [INFO] _network_loop: received 113 bytes from ('127.0.0.1', 5000)
+2025-09-07T11:38:14.561195 [INFO] Room created successfully
+2025-09-07T11:38:19.221405 [INFO] join_room: room_id=va, username=Player_742785b8
+2025-09-07T11:38:19.224943 [INFO] _network_loop: received 219 bytes from ('127.0.0.1', 5000)
+2025-09-07T11:38:19.225014 [INFO] _network_loop: received 145 bytes from ('127.0.0.1', 5000)
+2025-09-07T11:38:19.225526 [INFO] Joined room successfully
+2025-09-07T11:38:19.225749 [INFO] peer_joined: 742785b8 at ('172.17.0.1', 53008)
+2025-09-07T11:38:19.226247 [INFO] _initiate_punch: Connecting to 86d1bd96 at ('172.17.0.1', 55448)
+2025-09-07T11:38:19.226443 [INFO] _initiate_punch: Connecting to 742785b8 at ('172.17.0.1', 53008)
+2025-09-07T11:40:45.240486 [INFO] VPNClient.start: creating UDP socket
+2025-09-07T11:40:45.242097 [INFO] VPNClient.start: UDP socket bound to ('0.0.0.0', 61053)
+2025-09-07T11:40:45.242547 [INFO] Attempting to create/open adapter with name: LANVPN-3263a441
+2025-09-07T11:40:45.242922 [INFO] create_adapter: attempting to create/open adapter 'LANVPN-3263a441'
+2025-09-07T11:40:45.590963 [INFO] create_adapter: created adapter=True
+2025-09-07T11:40:45.591770 [INFO] start_session: starting session
+2025-09-07T11:40:45.593453 [INFO] WintunStartSession func: <_FuncPtr object at 0x000001FBF2F865B0>
+2025-09-07T11:40:45.595738 [INFO] start_session: session started=True
+2025-09-07T11:40:45.608650 [INFO] VPNClient.start: running=True, peer_id=3263a441
+2025-09-07T11:40:45.623610 [INFO] VPNClient.start: started thread Thread-1 (_network_loop)
+2025-09-07T11:40:45.624844 [INFO] VPNClient.start: started thread Thread-2 (_keepalive_loop)
+2025-09-07T11:40:45.625654 [INFO] VPN client started for peer 3263a441
+2025-09-07T11:40:48.133313 [INFO] VPNClient.start: creating UDP socket
+2025-09-07T11:40:48.135666 [INFO] VPNClient.start: UDP socket bound to ('0.0.0.0', 56372)
+2025-09-07T11:40:48.136307 [INFO] Attempting to create/open adapter with name: LANVPN-703a0959
+2025-09-07T11:40:48.136839 [INFO] create_adapter: attempting to create/open adapter 'LANVPN-703a0959'
+2025-09-07T11:40:48.406603 [INFO] create_adapter: created adapter=True
+2025-09-07T11:40:48.407900 [INFO] start_session: starting session
+2025-09-07T11:40:48.410237 [INFO] WintunStartSession func: <_FuncPtr object at 0x000002931F0065B0>
+2025-09-07T11:40:48.417380 [INFO] start_session: session started=True
+2025-09-07T11:40:48.424417 [INFO] VPNClient.start: running=True, peer_id=703a0959
+2025-09-07T11:40:48.437390 [INFO] VPNClient.start: started thread Thread-1 (_network_loop)
+2025-09-07T11:40:48.444001 [INFO] VPNClient.start: started thread Thread-2 (_keepalive_loop)
+2025-09-07T11:40:48.444900 [INFO] VPN client started for peer 703a0959
+2025-09-07T11:40:52.139364 [INFO] create_room: room_id=va, username=Player_703a0959
+2025-09-07T11:40:52.142734 [INFO] _network_loop: received 113 bytes from ('192.168.1.112', 5000)
+2025-09-07T11:40:52.143595 [INFO] Room created successfully
+2025-09-07T11:40:56.774340 [INFO] join_room: room_id=va, username=Player_3263a441
+2025-09-07T11:40:56.777725 [INFO] _network_loop: received 407 bytes from ('192.168.1.112', 5000)
+2025-09-07T11:40:56.778336 [INFO] Joined room successfully
+5 bytes from ('192.168.1.112', 5000)
+2025-09-07T11:40:56.779000 [INFO] _initiate_punch: Connecting to 86d1bd96 at ('172.17.0.1', 55448)
+2025-09-07T11:40:56.779057 [INFO] peer_joined: 3263a441 at ('172.17.0.1', 58853)
+2025-09-07T11:40:56.779758 [INFO] _initiate_punch: Connecting to 742785b8 at ('172.17.0.1', 53008)
+2025-09-07T11:40:56.779788 [INFO] _initiate_punch: Connecting to 3263a441 at ('172.17.0.1', 58853)
+2025-09-07T11:40:56.780480 [INFO] _initiate_punch: Connecting to 703a0959 at ('172.17.0.1', 33550)
+2025-09-07T11:43:16.689401 [INFO] VPNClient.start: creating UDP socket
+2025-09-07T11:43:16.691042 [INFO] VPNClient.start: UDP socket bound to ('0.0.0.0', 51047)
+2025-09-07T11:43:16.691511 [INFO] Attempting to create/open adapter with name: LANVPN-f3fb4472
+2025-09-07T11:43:16.692109 [INFO] create_adapter: attempting to create/open adapter 'LANVPN-f3fb4472'
+2025-09-07T11:43:16.984115 [INFO] create_adapter: created adapter=True
+2025-09-07T11:43:16.985105 [INFO] start_session: starting session
+2025-09-07T11:43:16.986412 [INFO] WintunStartSession func: <_FuncPtr object at 0x0000023DB33E65B0>
+2025-09-07T11:43:16.988196 [INFO] start_session: session started=True
+2025-09-07T11:43:16.992522 [INFO] VPNClient.start: running=True, peer_id=f3fb4472
+2025-09-07T11:43:17.012344 [INFO] VPNClient.start: started thread Thread-1 (_network_loop)
+2025-09-07T11:43:17.017456 [INFO] VPNClient.start: started thread Thread-2 (_keepalive_loop)
+2025-09-07T11:43:17.019660 [INFO] VPN client started for peer f3fb4472
+2025-09-07T11:43:21.248653 [INFO] VPNClient.start: creating UDP socket
+2025-09-07T11:43:21.250506 [INFO] VPNClient.start: UDP socket bound to ('0.0.0.0', 51155)
+2025-09-07T11:43:21.251549 [INFO] Attempting to create/open adapter with name: LANVPN-d539acc5
+2025-09-07T11:43:21.252062 [INFO] create_adapter: attempting to create/open adapter 'LANVPN-d539acc5'
+2025-09-07T11:43:21.560312 [INFO] create_adapter: created adapter=True
+2025-09-07T11:43:21.561259 [INFO] start_session: starting session
+2025-09-07T11:43:21.561833 [INFO] WintunStartSession func: <_FuncPtr object at 0x00000227D1FF65B0>
+2025-09-07T11:43:21.562946 [INFO] start_session: session started=True
+2025-09-07T11:43:21.567249 [INFO] VPNClient.start: running=True, peer_id=d539acc5
+2025-09-07T11:43:21.580407 [INFO] VPNClient.start: started thread Thread-1 (_network_loop)
+2025-09-07T11:43:21.582621 [INFO] VPNClient.start: started thread Thread-2 (_keepalive_loop)
+2025-09-07T11:43:21.583415 [INFO] VPN client started for peer d539acc5
+2025-09-07T11:43:24.330320 [INFO] create_room: room_id=va, username=Player_d539acc5
+2025-09-07T11:43:24.333715 [INFO] _network_loop: received 113 bytes from ('192.168.1.112', 5000)
+2025-09-07T11:43:24.334310 [INFO] Room created successfully
+2025-09-07T11:43:28.921587 [INFO] join_room: room_id=va, username=Player_f3fb4472
+2025-09-07T11:43:28.925752 [INFO] _network_loop: received 145 bytes from ('192.168.1.112', 5000)
+2025-09-07T11:43:28.926423 [INFO] Joined room successfully
+2025-09-07T11:43:28.926425 [INFO] peer_joined: f3fb4472 at ('172.17.0.1', 60189)
+2025-09-07T11:43:28.927042 [INFO] _initiate_punch: Connecting to d539acc5 at ('172.17.0.1', 34193)
+2025-09-07T11:43:28.927475 [INFO] _initiate_punch: Connecting to f3fb4472 at ('172.17.0.1', 60189)
+2025-09-07T11:49:00.059465 [INFO] VPNClient.start: creating UDP socket
+2025-09-07T11:49:00.061135 [INFO] VPNClient.start: UDP socket bound to ('0.0.0.0', 60689)
+2025-09-07T11:49:00.061611 [INFO] Attempting to create/open adapter with name: LANVPN-46ec112e
+2025-09-07T11:49:00.062026 [INFO] create_adapter: attempting to create/open adapter 'LANVPN-46ec112e'
+2025-09-07T11:49:00.402793 [INFO] create_adapter: created adapter=True
+2025-09-07T11:49:00.403584 [INFO] start_session: starting session
+2025-09-07T11:49:00.404238 [INFO] WintunStartSession func: <_FuncPtr object at 0x000001E0587165B0>
+2025-09-07T11:49:00.405794 [INFO] start_session: session started=True
+2025-09-07T11:49:00.407834 [INFO] VPNClient.start: running=True, peer_id=46ec112e
+2025-09-07T11:49:00.412748 [INFO] VPNClient.start: started thread Thread-1 (_network_loop)
+2025-09-07T11:49:00.417280 [INFO] VPNClient.start: started thread Thread-2 (_keepalive_loop)
+2025-09-07T11:49:00.418300 [INFO] VPN client started for peer 46ec112e
+2025-09-07T11:49:04.240745 [INFO] VPNClient.start: creating UDP socket
+2025-09-07T11:49:04.242446 [INFO] VPNClient.start: UDP socket bound to ('0.0.0.0', 57156)
+2025-09-07T11:49:04.242872 [INFO] Attempting to create/open adapter with name: LANVPN-20490564
+2025-09-07T11:49:04.243297 [INFO] create_adapter: attempting to create/open adapter 'LANVPN-20490564'
+2025-09-07T11:49:04.537742 [INFO] create_adapter: created adapter=True
+2025-09-07T11:49:04.538616 [INFO] start_session: starting session
+2025-09-07T11:49:04.539173 [INFO] WintunStartSession func: <_FuncPtr object at 0x00000196A12A65B0>
+2025-09-07T11:49:04.540352 [INFO] start_session: session started=True
+2025-09-07T11:49:04.545015 [INFO] VPNClient.start: running=True, peer_id=20490564
+2025-09-07T11:49:04.549868 [INFO] VPNClient.start: started thread Thread-1 (_network_loop)
+2025-09-07T11:49:04.557781 [INFO] VPNClient.start: started thread Thread-2 (_keepalive_loop)
+2025-09-07T11:49:04.558811 [INFO] VPN client started for peer 20490564
+2025-09-07T11:49:07.591957 [INFO] create_room: room_id=va, username=Player_20490564
+2025-09-07T11:49:07.595543 [INFO] _network_loop: received 113 bytes from ('192.168.1.112', 5000)
+2025-09-07T11:49:07.596111 [INFO] Room created successfully
+2025-09-07T11:49:14.602666 [INFO] join_room: room_id=va, username=Player_46ec112e
+2025-09-07T11:49:14.606464 [INFO] _network_loop: received 145 bytes from ('192.168.1.112', 5000)
+2025-09-07T11:49:14.607218 [INFO] peer_joined: 46ec112e at ('172.17.0.1', 40064)
+2025-09-07T11:49:14.607965 [INFO] _initiate_punch: Connecting to 20490564 at ('172.17.0.1', 51918)
+2025-09-07T11:51:03.287612 [INFO] VPNClient.start: creating UDP socket
+2025-09-07T11:51:03.289816 [INFO] VPNClient.start: UDP socket bound to ('0.0.0.0', 56500)
+2025-09-07T11:51:03.290730 [INFO] Attempting to create/open adapter with name: LANVPN-307cf572
+2025-09-07T11:51:03.291207 [INFO] create_adapter: attempting to create/open adapter 'LANVPN-307cf572'
+2025-09-07T11:51:03.577572 [INFO] create_adapter: created adapter=True
+2025-09-07T11:51:03.578203 [INFO] start_session: starting session
+2025-09-07T11:51:03.578917 [INFO] WintunStartSession func: <_FuncPtr object at 0x00000274FACE65B0>
+2025-09-07T11:51:03.584608 [INFO] start_session: session started=True
+2025-09-07T11:51:03.595403 [INFO] VPNClient.start: running=True, peer_id=307cf572
+2025-09-07T11:51:03.607247 [INFO] VPNClient.start: started thread Thread-1 (_network_loop)
+2025-09-07T11:51:03.610851 [INFO] VPNClient.start: started thread Thread-2 (_keepalive_loop)
+2025-09-07T11:51:03.611674 [INFO] VPN client started for peer 307cf572
+2025-09-07T11:51:06.163811 [INFO] VPNClient.start: creating UDP socket
+2025-09-07T11:51:06.165337 [INFO] VPNClient.start: UDP socket bound to ('0.0.0.0', 50487)
+2025-09-07T11:51:06.165960 [INFO] Attempting to create/open adapter with name: LANVPN-ba18f544
+2025-09-07T11:51:06.166443 [INFO] create_adapter: attempting to create/open adapter 'LANVPN-ba18f544'
+2025-09-07T11:51:06.387347 [INFO] create_adapter: created adapter=True
+2025-09-07T11:51:06.388044 [INFO] start_session: starting session
+2025-09-07T11:51:06.388561 [INFO] WintunStartSession func: <_FuncPtr object at 0x000002061CF665B0>
+2025-09-07T11:51:06.389576 [INFO] start_session: session started=True
+2025-09-07T11:51:06.390517 [INFO] VPNClient.start: running=True, peer_id=ba18f544
+2025-09-07T11:51:06.397135 [INFO] VPNClient.start: started thread Thread-1 (_network_loop)
+2025-09-07T11:51:06.401386 [INFO] VPNClient.start: started thread Thread-2 (_keepalive_loop)
+2025-09-07T11:51:06.402625 [INFO] VPN client started for peer ba18f544
+2025-09-07T11:51:09.325835 [INFO] create_room: room_id=va, username=Player_ba18f544
+2025-09-07T11:51:09.329426 [INFO] _network_loop: received 113 bytes from ('192.168.1.112', 5000)
+2025-09-07T11:51:09.330166 [INFO] Room created successfully
